@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2178725553" file="C:\Users\Kevin Otuteye\Desktop\imagefilter\Image Filter.prj" location="C:\Users\Kevin Otuteye\Desktop\imagefilter" name="Image Filter" target="target.mlapps" target-name="Package App">
+    <param.appname>Image Filter</param.appname>
+    <param.authnamewatermark>Kevin Otuteye</param.authnamewatermark>
+    <param.email>kevinotuteye@gmail.com</param.email>
+    <param.company>Student</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A simple color filter</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Kevin Otuteye\AppData\Local\Temp\tp1bead4b2_4082_4060_9884_d71f10c270e9.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>1f8db64f-6579-4393-bd94-b0e642442625</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ImageFilter.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\createMask.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Kevin Otuteye\Desktop" name="imagefilter" optional="false">C:\Users\Kevin Otuteye\Desktop\imagefilter</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2020a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
